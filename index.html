@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+        <link rel="stylesheet" href="my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.js">
+        </script>
+        <script src="my.js">
+        </script>
+    </head>
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    Login
+                </h3>
+            </div>
+            <div data-role="content">
+                <div style=" text-align:center">
+                    <img style="width: 150px; height: 100px" src="http://mobile.jtsportal.com/images/header.gif" />
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="user_id">
+                            UserName
+                        </label>
+                        <input name="" id="user_id" placeholder="" value="" type="text" />
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="pass_id">
+                            Password
+                        </label>
+                        <input name="" id="pass_id" placeholder="" value="" type="password" />
+                    </fieldset>
+                </div>
+                <a id="clear_id" data-role="button" data-inline="true" data-transition="none" data-theme="c" href="#page1" data-icon="delete" data-iconpos="left">
+                    Clear
+                </a>
+                <input id="login_id" data-inline="true" data-theme="a" value="Login" type="submit" />
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <h3>
+                    © 2012 Leopard Solutions.
+                </h3>
+            </div>
+        </div>
+        <script>
+            //App custom javascript
+        </script>
+    </body>
+</html>
